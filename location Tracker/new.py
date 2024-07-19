@@ -2,7 +2,7 @@ import phonenumbers
 from phonenumbers import geocoder
 import folium
 
-key = "809101b2ce9e4020b247220e1bffe084"
+key = "Enter your Opencage key here"
 number= input("Enter the phone number with preceeding country code please: ")
 check_number = phonenumbers.parse(number)
 number_location = geocoder.description_for_number(check_number, "en") 
